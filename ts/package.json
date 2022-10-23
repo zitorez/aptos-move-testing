@@ -4,12 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "aptos": "/Users/varunverma/desktop/aptos/aptos-core/ecosystem/typescript/sdk",
+    "aptos": "latest",
     "big-int": "^0.0.6",
     "ts-node": "^10.9.1"
   },
   "devDependencies": {
-    "@types/node": "^18.6.5"
+    "@types/node": "18.6.2",
+    "npm-run-all": "4.1.5",
+    "ts-node": "10.9.1",
+    "typescript": "4.8.2"
   },
   "scripts": {
     "start": "node --loader ts-node/esm index.ts message.mv"
